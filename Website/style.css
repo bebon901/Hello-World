@@ -1,4 +1,4 @@
-﻿body {margin:0;}
+body {margin:0;}
 @font-face { font-family: lithos; src: url('Lithos.ttf'); }
 .navbar {
 
@@ -57,7 +57,7 @@ color: #ffffff;
 
 h1 {
   font-family: "Sofia";
-position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
+position:relative;animation:animateleft 0.6s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
 color: #993399;
 font-size: 60px;
 
@@ -67,6 +67,7 @@ h2{
 color: #ffffff;
 font-size: 30px;
 font-family: "Verdana";
+  position:relative;animation:animateright 1s}@keyframes animateright{from{left:300px;opacity:0} to{left:0;opacity:1}
 }
 
 iframe{height:60px;}
@@ -75,9 +76,11 @@ h3{
 color: #ffffff;
 font-size: 20px;
 font-family: "Verdana";
+  position:relative;animation:animateleft 0.8s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
 }
 li{color: #ffffff;
 font-family: "Verdana";
+  position:relative;animation:animateright 1s}@keyframes animateright{from{left:300px;opacity:0} to{left:0;opacity:1}
 font-fize:20;}
 p{color: #ffffff;
 font-Size:20;
