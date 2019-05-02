@@ -1,5 +1,6 @@
 body {margin:0;}
 @font-face { font-family: lithos; src: url('Lithos.ttf'); }
+@import url('https://fonts.googleapis.com/css?family=Arimo');
 .navbar {
 
   overflow: hidden;
@@ -66,7 +67,7 @@ font-size: 60px;
 h2{
 color: #ffffff;
 font-size: 30px;
-font-family: "Verdana";
+font-family: "Arimo";
   position:relative;animation:animateright 1s}@keyframes animateright{from{left:300px;opacity:0} to{left:0;opacity:1}
 }
 
@@ -75,16 +76,16 @@ iframe{height:60px;}
 h3{
 color: #ffffff;
 font-size: 20px;
-font-family: "Verdana";
+font-family: "Arimo";
   position:relative;animation:animateleft 0.8s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
 }
 li{color: #ffffff;
-font-family: "Verdana";
+font-family: "Arimo";
   position:relative;animation:animateright 1s}@keyframes animateright{from{left:300px;opacity:0} to{left:0;opacity:1}
 font-fize:20;}
 p{color: #ffffff;
 font-Size:20;
-font-family: "Verdana";}
+font-family: "Arimo";}
 .button {
 
   display: inline-block;
@@ -92,7 +93,7 @@ font-family: "Verdana";}
   border-radius: 4px;
 
   background-color: #ff4b00;
-font-family: "Verdana";
+font-family: "Arimo";
   border: none;
 
   color: #FFFFFF;
@@ -173,7 +174,7 @@ font-family: "Verdana";
 .button1 {
 
   display: inline-block;
-font-family: "Verdana";
+font-family: "Arimo";
   border-radius: 8px;
 
   background-color: #ff4b00;
@@ -267,7 +268,7 @@ font-family: "Verdana";
   border-radius: 4px;
 
   background-color: #ff4b00;
-font-family: "Verdana";
+font-family: "Arimo";
   border: none;
 
   color: #FFFFFF;
