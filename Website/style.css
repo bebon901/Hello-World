@@ -41,10 +41,7 @@
 .navbar a:hover {
 
   background: #29a3a3;
-  font-size: 15;
-
-}
-{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+  font-size: 15;}
 
 .main {
 
@@ -59,10 +56,11 @@ color: #ffffff;
 }
 
 h1 {
+  font-family: "Sofia";
 position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
 color: #ffffff;
 font-size: 60px;
-font-family: "Sofia";
+
 }    
 
 h2{
