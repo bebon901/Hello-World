@@ -76,7 +76,7 @@ iframe{height:60px;}
 h3{
 color: #ffffff;
 font-size: 20px;
-font-family: "Arimo";
+font-family: 'Arimo', sans-serif;
   position:relative;animation:animateleft 0.8s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
 }
 li{color: #ffffff;
@@ -85,7 +85,7 @@ font-family: "Arimo";
 font-fize:20;}
 p{color: #ffffff;
 font-Size:20;
-font-family: "Arimo";}
+font-family: 'Arimo', sans-serif;}
 .button {
 
   display: inline-block;
@@ -93,7 +93,7 @@ font-family: "Arimo";}
   border-radius: 4px;
 
   background-color: #ff4b00;
-font-family: "Arimo";
+font-family: 'Arimo', sans-serif;;
   border: none;
 
   color: #FFFFFF;
@@ -174,7 +174,7 @@ font-family: "Arimo";
 .button1 {
 
   display: inline-block;
-font-family: "Arimo";
+font-family: 'Arimo', sans-serif;;
   border-radius: 8px;
 
   background-color: #ff4b00;
@@ -268,7 +268,7 @@ font-family: "Arimo";
   border-radius: 4px;
 
   background-color: #ff4b00;
-font-family: "Arimo";
+font-family: 'Arimo', sans-serif;;
   border: none;
 
   color: #FFFFFF;
