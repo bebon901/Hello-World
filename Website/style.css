@@ -67,7 +67,7 @@ font-size: 60px;
 h2{
 color: #ffffff;
 font-size: 30px;
-font-family: "Arimo";
+  font-family: 'Arimo', sans-serif;
   position:relative;animation:animateright 1s}@keyframes animateright{from{left:300px;opacity:0} to{left:0;opacity:1}
 }
 
