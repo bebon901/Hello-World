@@ -1,8 +1,53 @@
 <html>
-<head>
+<head> 
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
-body {margin:0;}
+p {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+animation-delay: 3s;
+animation-iteration-count:infinite;
+animation-direction: alternate;
+}
+i {
+    position: relative;
+    
+    animation-name: chch;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+i {
+    width:450px;
+    height:450px;
+}
+d {
+    
+    
+}
+    
+@keyframes example {
+    0%   {background-color:#ff0066; left:0px; top:0px;}
+    25%  {background-color:#00ffcc; left:200px; top:0px;}
+    50%  {background-color:#33cc33; left:200px; top:200px;}
+    75%  {background-color:#ffff00; left:-200px; top:200px;}
+    100% {background-color:#ff0066; left:-200px; top:0px;}
+}
+    @keyframes chch {
+    0%   {color:#ff0066; }
+    25%  {color:#00ffcc;}
+    50%  {color:#33cc33;}
+    75%  {color:#ffff00;}
+    100% {color:#ff0066;}   
+    
+    }
 
 .navbar {
   overflow: hidden;
@@ -13,11 +58,11 @@ body {margin:0;}
   width: 100%;
 }
 
-.navbar a {
+ .navbar a {
   float: left;
   display: block;
   color: #f2f2f2;
-  text-align: center;
+   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -31,19 +76,98 @@ body {margin:0;}
   background: linear-gradient(to bottom, #00ffff 0%, #ff00ff 100%);
   padding: 16px;
   margin-top: 30px;
-  height: 1500px; /* Used in this example to enable scrolling */
+  height: 15000px; /* Used in this example to enable scrolling */
+}
+    
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+
 }
 </style>
+    
 </head>
 <body>
 
 <iframe height="45" style="border:none;" src="navbar.html" class="navbar"></iframe>
 <div class="main" align="center">
-  <h1><u>Hello, And Welcome To <i>Ben Benson's</i>Website</u></h1>
+        <script>
+            var today = new Date();
+            var hourNow = today.getHours();
+            var greeting;            
+
+            if (hourNow > 21) {
+                greeting = "Good night, "
+            } else if (hourNow > 18) {
+                greeting = "Good Evening, ";
+            } else if (hourNow > 12) {
+                greeting = "Good Afternoon, ";
+            } else if (hourNow > 0) {
+                greeting = "Good Morning, ";
+            } else {
+                greeting = "Hello,";
+            }
+
+            document.write("<h3>" + greeting + ".</h3>");
+        </script>
+    <script> 
+    window.intergramId = "768135299";
+    window.intergramCustomizations = {
+        titleClosed: 'Ben Benson',
+        titleOpen: 'Hello World',
+        
+        mainColor: "#E91E63", // Can be any css supported color 'red', 'rgb(255,87,34)', etc
+        alwaysUseFloatingButton: false // Use the mobile floating button also on large screens
+    };
+</script>
+<script id="intergram" type="text/javascript" src="https://www.intergram.xyz/js/widget.js"></script>
+
+  <h1><u>Hello, And Welcome To <i>Ben Benson's</i> Website</u></h1>
   <h2></h2>
-  
-
+  <p></p>
+  <button class="button" href="about.html" onclick="window.location='about.html' " style="vertical-align:middle"><span>About Me</span></button>
+     </div>
+<div style="position: absolute; left: 0px; top: 0px; border: solid 2px #555; width:594px; height:332px;">
+<div style="overflow: hidden; margin-top: -100px; margin-left: -25px;">
 </div>
-
+</div>
+</div>
 </body>
 </html>

@@ -1,0 +1,346 @@
+body {margin:0;}
+@font-face { font-family: lithos; src: url('Lithos.ttf'); }
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+.navbar {
+
+  overflow: hidden;
+
+  text-shadow: 1px 1px 0px #444;
+
+  background-color: #ffffff;
+
+  position: fixed;
+
+  top: 0;
+
+  width: 100%;
+
+}
+
+
+
+ .navbar a {
+
+  float: left;
+
+  display: block;
+
+  color: #ffffff;
+
+   text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+
+  font-size: 30px;
+
+}
+
+
+
+.navbar a:hover {
+
+  background: #29a3a3;
+  font-size: 15;}
+
+.main {
+
+  background: linear-gradient(to bottom, #6900bf 0%, #be3800 100%);
+color: #ffffff;
+  padding:30px;
+
+  margin-top: 30px;
+
+  height: 2400px; /* Used in this example to enable scrolling */
+
+}
+
+h1 {
+  font-family: "Sofia";
+position:relative;animation:animateleft 0.6s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
+color: #993399;
+font-size: 60px;
+
+}    
+
+h2{
+color: #ffffff;
+font-size: 30px;
+  font-family: 'Arimo', sans-serif;
+  position:relative;animation:animateright 1s}@keyframes animateright{from{left:300px;opacity:0} to{left:0;opacity:1}
+}
+
+iframe{height:60px;}
+
+h3{
+color: #ffffff;
+font-size: 20px;
+font-family: 'Arimo', sans-serif;
+  position:relative;animation:animateleft 0.8s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
+}
+li{color: #ffffff;
+font-family: "Arimo";
+  position:relative;animation:animateright 1s}@keyframes animateright{from{left:300px;opacity:0} to{left:0;opacity:1}
+font-fize:20;}
+p{color: #ffffff;
+font-Size:20;
+font-family: 'Arimo', sans-serif;}
+.button {
+
+  display: inline-block;
+
+  border-radius: 4px;
+
+  background-color: #ff4b00;
+font-family: 'Arimo', sans-serif;;
+  border: none;
+
+  color: #FFFFFF;
+
+  text-align: center;
+
+  font-size: 35px;
+
+  padding: 20px;
+
+  width: 1000px;
+  
+  transition: all 0.5s;
+
+  cursor: pointer;
+
+  margin: 5px;
+
+}
+
+
+
+.button span {
+
+  cursor: pointer;
+
+  display: inline-block;
+
+  position: relative;
+
+  transition: 0.5s;
+
+}
+
+
+
+.button span:after {
+
+  content: '\00bb';
+
+  position: absolute;
+
+  opacity: 0;
+
+  top: 0;
+
+
+
+  right: -20px;
+
+  transition: 0.5s;
+
+}
+
+
+
+.button:hover span {
+
+  padding-right: 25px;
+
+
+
+}
+
+
+
+.button:hover span:after {
+
+  opacity: 1;
+
+  right: 0;
+
+
+
+}
+
+
+.button1 {
+
+  display: inline-block;
+font-family: 'Arimo', sans-serif;;
+  border-radius: 8px;
+
+  background-color: #ff4b00;
+
+  border: none;
+
+  color: #FFFFFF;
+
+  text-align: center;
+
+  font-size: 30px;
+
+  padding: 20px;
+
+  width: 200px;
+
+  transition: all 0.5s;
+
+  cursor: pointer;
+
+  margin: 5px;
+
+}
+
+
+
+.button1 span {
+
+  cursor: pointer;
+
+  display: inline-block;
+
+  position: relative;
+
+  transition: 0.5s;
+
+}
+
+
+
+.button1 span:after {
+
+  content: '←';
+
+  position: absolute;
+
+  opacity: 0;
+
+  top: 0;
+
+
+
+  right: -20px;
+
+  transition: 0.5s;
+
+}
+
+
+
+.button1:hover span {
+
+  padding-right: 25px;
+
+
+
+}
+
+
+
+.button1:hover span:after {
+
+  opacity: 1;
+
+  right: 0;
+
+
+
+}
+
+
+
+
+
+
+
+.button2 {
+
+  display: inline-block;
+
+  border-radius: 4px;
+
+  background-color: #ff4b00;
+font-family: 'Arimo', sans-serif;;
+  border: none;
+
+  color: #FFFFFF;
+
+  text-align: center;
+
+  font-size: 35px;
+
+  padding: 20px;
+
+  width: 800px;
+  
+  transition: all 0.5s;
+
+  cursor: pointer;
+
+  margin: 5px;
+
+}
+
+
+
+.button2 span {
+
+  cursor: pointer;
+
+  display: inline-block;
+
+  position: relative;
+
+  transition: 0.5s;
+
+}
+
+
+
+.button2 span:after {
+
+  content: '?';
+
+  position: absolute;
+
+  opacity: 0;
+
+  top: 0;
+
+
+
+  right: -20px;
+
+  transition: 0.5s;
+
+}
+
+
+
+.button2:hover span {
+
+  padding-right: 25px;
+
+
+
+}
+
+
+
+.button2:hover span:after {
+
+  opacity: 1;
+
+  right: 0;
+
+
+
+}
